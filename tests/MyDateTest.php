@@ -20,8 +20,7 @@ class MyDateTest extends PHPUnit_Framework_TestCase
     public function testSimpleMonths()
     {
 
-        $this->assertMonths('2014/01/01', '2014/03/01');
-
+        $this->assertMonths('2013/11/10', '2014/03/01');
     }
 
     public function testSimpleYears()
@@ -196,6 +195,7 @@ class MyDateTest extends PHPUnit_Framework_TestCase
     {
         $d = MyDate::diff($s, $e);
         $a = $this->dateDiff($s, $e);
+
         $this->assertSame($a->days, $d->total_days);
     }
 
