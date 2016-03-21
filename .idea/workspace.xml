@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7081be0d-4dc3-4562-b470-022732a94621" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateDiff.php" afterPath="$PROJECT_DIR$/src/DateDiff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateFactory.php" afterPath="$PROJECT_DIR$/src/DateFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateFormatMatcher.php" afterPath="$PROJECT_DIR$/src/DateFormatMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateFormatMatcherInterface.php" afterPath="$PROJECT_DIR$/src/DateFormatMatcherInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateInterface.php" afterPath="$PROJECT_DIR$/src/DateInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateValidator.php" afterPath="$PROJECT_DIR$/src/DateValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateValidatorInterface.php" afterPath="$PROJECT_DIR$/src/DateValidatorInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InvalidDateException.php" afterPath="$PROJECT_DIR$/src/InvalidDateException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InvalidDateFormatException.php" afterPath="$PROJECT_DIR$/src/InvalidDateFormatException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDate.php" afterPath="$PROJECT_DIR$/src/MyDate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDateInterval.php" afterPath="$PROJECT_DIR$/src/MyDateInterval.php" />
     </list>
     <ignored path="phpdatechallenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/tests/DateValidatorTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.4915254">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -376,7 +364,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458165559698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working code + more tests for 100% coverage">
+      <created>1458545471839</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458545471839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -416,6 +410,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -430,7 +425,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37297922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -445,7 +439,8 @@
     <MESSAGE value="add ps4 autoloader" />
     <MESSAGE value="remove default autoloader ( it was replaced with composer psr-4 autoloader )" />
     <MESSAGE value="convert files to conform psr-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert files to conform psr-2" />
+    <MESSAGE value="working code + more tests for 100% coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="working code + more tests for 100% coverage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/tests/DateValidatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4915254">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding />
         </state>
       </provider>
