@@ -1,10 +1,7 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: mbucse
- * Date: 17/03/2016
- * Time: 07:10
+/*
+ * create a regexp format matcher
  */
 class DateFormatMatcher implements DateFormatMatcherInterface
 {
@@ -13,17 +10,27 @@ class DateFormatMatcher implements DateFormatMatcherInterface
      */
     private $format;
 
+    /**
+     * DateFormatMatcher constructor.
+     * @param $format
+     */
     public function __construct($format)
     {
         $this->format = $format;
     }
 
+    /**
+     * @return string
+     */
     public function getMatcher()
     {
         return '#^(\d){4}/(\d){2}/(\d){2}$#';
     }
 
-    public function getformat()
+    /**
+     * @return mixed
+     */
+    public function getFormat()
     {
         return $this->format;
     }

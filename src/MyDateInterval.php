@@ -1,5 +1,8 @@
 <?php
 
+/*
+ * define a date diff object
+ */
 class MyDateInterval
 {
     public $years;
